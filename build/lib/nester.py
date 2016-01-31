@@ -1,4 +1,7 @@
-
+"""
+입력받은 리스트의 각 원소를 출력한다
+원소가 리스트인 경우엔 재귀호출을 통해 indent 를 적용 후 원소를 출력한다
+"""
 def print_lol(the_list, indent=False, level=0):
     if level < 0:
         level = 0
