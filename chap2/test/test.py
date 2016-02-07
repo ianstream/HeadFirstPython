@@ -1,4 +1,4 @@
-from chap2 import nester
+import nester
 
 test_data1 = ['test1', 'test2', 'test3', 'test4', 'test5',]
 
