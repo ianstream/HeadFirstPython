@@ -1,18 +1,17 @@
-
-data = None
-
-def file_open():
-    data = open('txt/sketch.txt')
-
 def print_file():
+    print("*** print_file ***")
+
+    data = open('sketch.txt')
+
     for each_line in data:
-        if not each_line.find(':') == -1:
+        try:
             (role, line_spoken) = each_line.split(':', 1)
             print(role, end='')
             print(' said: ', end='')
             print(line_spoken, end='')
-        else:
-            print(each_line)
+        except:
+            pass
 
-def file_close():
     data.close()
+
+
