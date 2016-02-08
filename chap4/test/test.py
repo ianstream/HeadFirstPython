@@ -1,8 +1,3 @@
-import write_file
-
-write_file.write_files()
-
-
 import nester
 
 test_data1 = ['test1', 'test2', 'test3', 'test4', 'test5',]
@@ -23,3 +18,13 @@ nester.print_lol(test_data2, False, 0)
 
 print('\nTest 2 of test_data2')
 nester.print_lol(test_data2, True, 1)
+
+
+import write_file
+
+#exception test
+write_file.write_files('error.txt')
+
+
+write_file.write_files()
+

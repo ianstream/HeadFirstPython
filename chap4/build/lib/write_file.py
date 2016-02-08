@@ -1,6 +1,7 @@
 import nester
+import pickle
 
-def write_files():
+def write_files(file_name='sketch.txt'):
     print("*** print_file ***")
 
     """
@@ -12,7 +13,7 @@ def write_files():
     other = []
 
     try:
-        with open('sketch.txt') as data:
+        with open(file_name) as data:
             for each_line in data:
                 try:
                     (role, line_spoken) = each_line.split(':', 1)
@@ -45,10 +46,13 @@ def write_files():
     close files using 'with'
     """
     try:
-        with open('man_data.txt', 'w') as man_file, \
-             open('other_data.txt', 'w') as other_file:
-            nester.print_lol(man, True, 0, fh=man_file)
-            nester.print_lol(other, True, 0, fh=other_file)
+        with open('man_data.txt', 'wb') as man_file, \
+             open('other_data.txt', 'wb') as other_file:
+            pickle.dump(man, man_file)
+            pickle.dump(other, other_file)
 
     except IOError:
         print('File Error !!!')
+
+    except pickle.PickleError as perr:
+        print('Pickel Error: ', str(perr))

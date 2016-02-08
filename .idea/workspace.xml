@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb10e02c-4450-423c-8788-2c22051183ee" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chap4/dist/write_file-1.1.0.tar.gz" afterPath="$PROJECT_DIR$/chap4/dist/write_file-1.1.0.tar.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chap4/build/lib/write_file.py" afterPath="$PROJECT_DIR$/chap4/build/lib/write_file.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chap4/man_data.txt" afterPath="$PROJECT_DIR$/chap4/man_data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chap4/other_data.txt" afterPath="$PROJECT_DIR$/chap4/other_data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chap4/test/test.py" afterPath="$PROJECT_DIR$/chap4/test/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chap4/write_file.py" afterPath="$PROJECT_DIR$/chap4/write_file.py" />
     </list>
     <ignored path="HeadFirstPython.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +44,10 @@
         <entry file="file://$PROJECT_DIR$/chap4/write_file.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-              <folding />
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,8 +55,28 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chap4/test/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16685979">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6257242">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="man_data.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chap4/man_data.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="other_data.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chap4/other_data.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,10 +103,11 @@
         <option value="$PROJECT_DIR$/chap3/file_nester.py" />
         <option value="$PROJECT_DIR$/chap4/file_nester.py" />
         <option value="$PROJECT_DIR$/chap4/nester.py" />
-        <option value="$PROJECT_DIR$/chap4/test/test.py" />
         <option value="$PROJECT_DIR$/chap4/setup.py" />
         <option value="$PROJECT_DIR$/chap2/nester.py" />
         <option value="$PROJECT_DIR$/chap4/write_file.py" />
+        <option value="$PROJECT_DIR$/chap4/test/test.py" />
+        <option value="$PROJECT_DIR$/chap4/man_data.txt" />
       </list>
     </option>
   </component>
@@ -584,7 +613,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454918026132</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="import nester, write files">
+      <created>1454918068412</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1454918068412</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -631,7 +666,8 @@
     <MESSAGE value="add tow list for man, other's spoken" />
     <MESSAGE value="delete txt dir, add chap4" />
     <MESSAGE value="write two files" />
-    <option name="LAST_COMMIT_MESSAGE" value="write two files" />
+    <MESSAGE value="import nester, write files" />
+    <option name="LAST_COMMIT_MESSAGE" value="import nester, write files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -772,14 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chap4/MANIFEST">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chap2/test/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16685979">
@@ -792,22 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chap4/other_data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chap4/man_data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.020857474">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -828,18 +840,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chap4/MANIFEST">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chap4/write_file.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap4/other_data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap4/man_data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chap4/test/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16685979">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6257242">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
