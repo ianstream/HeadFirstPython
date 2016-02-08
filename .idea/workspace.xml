@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb10e02c-4450-423c-8788-2c22051183ee" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chap2/dist/nester-1.1.1.tar.gz" afterPath="$PROJECT_DIR$/chap2/dist/nester-1.1.1.tar.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chap4/dist/write_file-1.1.0.tar.gz" afterPath="$PROJECT_DIR$/chap4/dist/write_file-1.1.0.tar.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chap2/build/lib/nester.py" afterPath="$PROJECT_DIR$/chap2/build/lib/nester.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chap2/nester.py" afterPath="$PROJECT_DIR$/chap2/nester.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chap4/build/lib/write_file.py" afterPath="$PROJECT_DIR$/chap4/build/lib/write_file.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chap4/man_data.txt" afterPath="$PROJECT_DIR$/chap4/man_data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chap4/other_data.txt" afterPath="$PROJECT_DIR$/chap4/other_data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chap4/test/test.py" afterPath="$PROJECT_DIR$/chap4/test/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chap4/write_file.py" afterPath="$PROJECT_DIR$/chap4/write_file.py" />
     </list>
     <ignored path="HeadFirstPython.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -587,7 +578,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454912260618</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="write two files">
+      <created>1454918026132</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1454918026132</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
