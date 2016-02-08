@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb10e02c-4450-423c-8788-2c22051183ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chap4/dist/write_file-1.1.0.tar.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chap4/MANIFEST" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chap4/build/lib/write_file.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chap4/man_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chap4/other_data.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HeadFirstPython.iws" />
@@ -559,7 +554,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454912196118</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="write two files">
+      <created>1454912251524</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1454912251524</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
