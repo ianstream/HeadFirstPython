@@ -1,5 +1,10 @@
-def print_file():
+def write_files():
     print("*** print_file ***")
+
+    """
+    read file sketch.txt
+    and collect two list for man, other's spoken line
+    """
 
     man = []
     other = []
@@ -33,3 +38,21 @@ def print_file():
     print("\n")
     print(other)
 
+    """
+    open files to write man, other's list
+    write lists
+    close files
+    """
+    try:
+        man_file = open('man_data.txt', 'w')
+        other_file = open('other_data.txt', 'w')
+
+        print(man, file=man_file)
+        print(other, file=other_file)
+
+    except IOError:
+        print('File Error !!!')
+
+    finally:
+        man_file.close()
+        other_file.close()

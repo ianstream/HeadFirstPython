@@ -1,9 +1,9 @@
 from distutils.core import setup
 
 setup(
-    name = 'file_nester',
+    name = 'write_file',
     version = '1.1.0',
-    py_modules = ['file_nester'],
+    py_modules = ['write_file'],
     author= 'ianstream',
     author_email = 'ianstream@gmail.com',
     url = '',
